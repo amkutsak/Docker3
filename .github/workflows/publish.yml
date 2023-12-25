@@ -18,7 +18,7 @@ jobs:
           username: ${{ secrets.LOG_DOC }}
           password: ${{ secrets.PASS_DOC }}
 
-      - name: build image and push
+      - name: build image and push 
         uses: docker/build-push-action@v5
         with:
           context: .
